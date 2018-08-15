@@ -3277,5 +3277,19 @@
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+
+        <!-- SyberiaSettings -->
+        <activity android:name=".Settings$SyberiaSettingsActivity"
+            android:label="@string/devilian_settings_title"
+            android:icon="@drawable/ic_homepage_deviliansettings"
+            android:parentActivityName="com.android.settings">
+            <intent-filter android:priority="69">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.devilian.settings.DevilianSettings" />
+        </activity>
+
     </application>
 </manifest>

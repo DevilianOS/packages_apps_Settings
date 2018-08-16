@@ -36,7 +36,7 @@
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
 
     <!-- DevilianOS version preference -->
-    <string name="devilian_version">"DevilianOS version"</string>
+    <string name="devilian_version">"DevilianOS"</string>
     <string name="build_date">"Build date"</string>
 
 </resources>
